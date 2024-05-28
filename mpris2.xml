@@ -1,0 +1,16 @@
+<node>
+    <interface name='org.mpris.MediaPlayer2.Player'>
+        <method name='Next'/>
+        <method name='Previous'/>
+        <method name='Pause'/>
+        <method name='PlayPause'/>
+        <method name='Stop'/>
+        <method name='Play'/>
+        <property name='PlaybackStatus' type='s' access='read'/>
+        <property name='CanGoNext' type='b' access='read'/>
+        <property name='CanGoPrevious' type='b' access='read'/>
+        <property name='CanPlay' type='b' access='read'/>
+        <property name='CanPause' type='b' access='read'/>
+        <property name='CanControl' type='b' access='read'/>
+    </interface>
+</node>
